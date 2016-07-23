@@ -1,0 +1,37 @@
+body {
+	background-color: pink;
+}
+
+ul.player {
+	margin: 0 auto;
+	padding: 0px;
+	margin-top: 200px;
+	width: 400px;
+	background-color: lightblue;
+	-webkit-border-radius: 36px 12px;
+	list-style: none;
+}
+
+ul.player li {
+	padding: 20px;
+	border-bottom: 1px solid grey;
+	background: url("images/playbutton.jpg") no-repeat 8px 7px;
+	background-position: 9px 4px;
+	text-indent: 50px;
+	
+	
+}
+
+ul.player li:last-child {
+	border-bottom: none;
+}
+
+ul.player li#playing {
+	background: url("images/pausebutton.jpg") no-repeat 8px 7px;
+	background-position: 9px 4px;
+}
+
+ul.player li#paused {
+	background: url("images/stopbutton.jpg") no-repeat 8px 7px;
+	background-position: 9px 4px;
+}
